@@ -229,16 +229,14 @@ function render() {
   <section id="support" class="max-w-2xl mx-auto px-4 py-12">
     <div class="support-card">
       <h2 class="text-2xl font-bold mb-3">Enjoy CardCraft?</h2>
-      <p class="text-white/80 mb-6">
+      <p class="text-white/80 mb-5">
         If this tool saves you time or helps you create something beautiful,
         consider buying me a coffee to keep the tools free and ad-free.
       </p>
-      <a href="https://www.buymeacoffee.com/YOUR_USERNAME" target="_blank" rel="noopener" class="bmc-btn">
-        🟡 Buy me a coffee — \$5
-      </a>
-      <p class="text-sm text-white/50 mt-4">
-        (Replace YOUR_USERNAME with your Buy Me a Coffee handle to start accepting tips!)
-      </p>
+      <div class="flex flex-col items-center gap-3">
+        <img src="./wxpay.jpg" alt="微信收款码" class="rounded-xl shadow-lg" style="width: 200px; height: 200px; object-fit: contain; background: white; padding: 8px;" />
+        <p class="text-sm text-white/70">📱 微信扫码 · 请我喝杯咖啡</p>
+      </div>
     </div>
   </section>
 
